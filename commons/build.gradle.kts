@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "org.nikoapps.commons"
+    namespace = "io.github.nikoapps.commons"
     compileSdk = 37
 
     defaultConfig {
@@ -18,6 +18,11 @@ android {
 
     buildFeatures {
         compose = true
+    }
+
+    lint {
+        // Accessibility issues fail the build, as in the apps.
+        error += listOf("ContentDescription", "ClickableViewAccessibility", "KeyboardInaccessibleWidget", "LabelFor")
     }
 }
 
