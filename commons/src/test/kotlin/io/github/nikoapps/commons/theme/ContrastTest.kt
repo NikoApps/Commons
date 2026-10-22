@@ -1,4 +1,4 @@
-package org.nikoapps.commons.theme
+package io.github.nikoapps.commons.theme
 
 import org.junit.Assert.assertTrue
 import org.junit.Test
