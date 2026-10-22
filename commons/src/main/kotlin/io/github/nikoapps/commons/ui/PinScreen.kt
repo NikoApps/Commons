@@ -12,7 +12,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
-import androidx.compose.runtime.saveable.rememberSaveable
+import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.painterResource
@@ -27,8 +27,9 @@ import io.github.nikoapps.commons.settings.HelperPin
 /** Asks for the helper PIN before settings open. [pinHash] is the saved hash from [helperPin]. */
 @Composable
 fun UnlockPinScreen(helperPin: HelperPin, pinHash: String, onUnlocked: () -> Unit, onCancel: () -> Unit) {
-    var entered by rememberSaveable { mutableStateOf("") }
-    var wrong by rememberSaveable { mutableStateOf(false) }
+    // Plain remember, not rememberSaveable: PIN digits must never go into the saved instance state.
+    var entered by remember { mutableStateOf("") }
+    var wrong by remember { mutableStateOf(false) }
     PinLayout(
         title = stringResource(R.string.pin_enter_title),
         message = if (wrong) stringResource(R.string.pin_wrong) else stringResource(R.string.pin_enter_message),
@@ -48,9 +49,10 @@ fun UnlockPinScreen(helperPin: HelperPin, pinHash: String, onUnlocked: () -> Uni
 /** Sets a new PIN: enter it, then enter it again to confirm. [onPinSet] gets the digits, for the app to hash. */
 @Composable
 fun SetPinScreen(onPinSet: (String) -> Unit, onCancel: () -> Unit) {
-    var first by rememberSaveable { mutableStateOf("") }
-    var entered by rememberSaveable { mutableStateOf("") }
-    var mismatch by rememberSaveable { mutableStateOf(false) }
+    // Plain remember, not rememberSaveable: PIN digits must never go into the saved instance state.
+    var first by remember { mutableStateOf("") }
+    var entered by remember { mutableStateOf("") }
+    var mismatch by remember { mutableStateOf(false) }
     val confirming = first.isNotEmpty()
     PinLayout(
         title = stringResource(R.string.pin_set_title),
