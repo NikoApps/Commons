@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Shared buttons and values -->
+    <string name="back">Kembali</string>
+    <string name="cancel">Batal</string>
+    <string name="ok">OK</string>
+    <string name="value_on">Aktif</string>
+    <string name="value_off">Nonaktif</string>
+    <string name="info_more_about">Selengkapnya tentang %1$s</string>
+
+    <!-- Helper PIN -->
+    <string name="section_pin">PIN pendamping</string>
+    <string name="pin_remove">Hapus PIN</string>
+    <string name="pin_enter_title">Masukkan PIN pendamping</string>
+    <string name="pin_enter_message">Masukkan 4 angka untuk membuka pengaturan.</string>
+    <string name="pin_wrong">PIN itu salah. Coba lagi.</string>
+    <string name="pin_set_title">Buat PIN pendamping</string>
+    <string name="pin_set_message">Pilih 4 angka. Angka ini diperlukan untuk membuka pengaturan.</string>
+    <string name="pin_confirm_message">Masukkan 4 angka yang sama lagi.</string>
+    <string name="pin_mismatch">Angkanya tidak sama. Mulai lagi.</string>
+    <string name="pin_progress">Angka dimasukkan: %1$d dari %2$d</string>
+    <string name="pin_delete">Hapus</string>
+
+    <!-- First-run setup -->
+    <string name="setup_title">Atur</string>
+    <string name="setup_step">Langkah %1$d dari %2$d</string>
+    <string name="setup_next">Berikutnya</string>
+    <string name="setup_done">Selesai</string>
+    <string name="setup_skip">Lewati pengaturan awal</string>
+
+    <!-- Voice. In status_language_not_supported, %1$s is the app's name. -->
+    <string name="language_phone">Sama dengan ponsel</string>
+    <string name="setting_voice_language">Bahasa suara</string>
+    <string name="voice_problem">Suara perlu diperbaiki</string>
+    <string name="setting_speech_speed">Kecepatan bicara</string>
+    <string name="test_voice">Coba suara</string>
+    <string name="voice_engine">Suara dari %1$s</string>
+    <string name="speed_slow">Lambat</string>
+    <string name="speed_normal">Normal</string>
+    <string name="speed_fast">Cepat</string>
+    <string name="status_no_voice">Ponsel belum punya suara untuk bahasa ini. Pendamping bisa menambahkannya di pengaturan teks ke ucapan.</string>
+    <string name="status_no_engine">Ponsel ini tidak punya suara untuk berbicara. Pendamping bisa memasangnya, misalnya RHVoice atau eSpeak NG.</string>
+    <string name="status_language_not_supported">%1$s belum bisa berbicara dalam bahasa ini.</string>
+
+    <!-- Text size and voice pitch -->
+    <string name="size_small">Kecil</string>
+    <string name="size_medium">Sedang</string>
+    <string name="size_large">Besar</string>
+    <string name="pitch_lower">Lebih rendah</string>
+    <string name="pitch_normal">Normal</string>
+    <string name="pitch_higher">Lebih tinggi</string>
+
+    <!-- Phone health. %1$s is the app's name. -->
+    <string name="health_battery">Penggunaan baterai</string>
+    <string name="health_battery_value">Atur ke Tidak dibatasi atau Tanpa batasan agar ponsel tidak menghentikan %1$s</string>
+    <string name="health_hibernation">Pengaturan aplikasi tidak terpakai</string>
+    <string name="health_hibernation_value">Matikan Jeda aktivitas aplikasi jika tidak digunakan</string>
+    <string name="phone_maker">Pengaturan merek ponsel</string>
+    <string name="phone_maker_xiaomi">Aktifkan Mulai otomatis untuk %1$s, dan atur Penghemat baterai ke Tanpa batasan.</string>
+    <string name="phone_maker_samsung">Atur Baterai ke Tidak dibatasi, dan jauhkan %1$s dari Aplikasi tidur dan Aplikasi tidur nyenyak.</string>
+    <string name="phone_maker_other">Jika ponsel punya Mulai otomatis, aktifkan untuk %1$s, dan atur penggunaan baterai ke Tanpa batasan.</string>
+</resources>

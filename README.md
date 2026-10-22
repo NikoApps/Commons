@@ -9,6 +9,10 @@ Shared Android code for [Niko](https://github.com/NikoApps) apps: the theme, spe
 - **`Speaker`**: a small wrapper around Android's text-to-speech engine. Speaks on the alarm stream by default, because media volume is often turned down. Reports when speech ends, and takes a volume and stream.
 - **Components**: `BigButton`, `SecondaryButton`, `SolidButton`, `ScreenTopBar`, and the settings rows `SettingsGroup`, `SwitchRow`, `ValueRow` and `ChoiceRow`. Every one has a spoken label and a touch target of at least 64dp.
 - **`PinPad` and `PinDots`**: the number pad for the helper PIN.
+- **Helper PIN**: `UnlockPinScreen` and `SetPinScreen`, and `HelperPin`, which hashes the PIN with a salt each app picks once and never changes.
+- **Phone health**: `HealthCheck` describes a phone setting that can stop an app working and the page that fixes it. `PhoneHealth` has the checks every app shares (battery optimisation and pausing unused apps), and `PhoneMaker` the maker's own battery settings. Each app adds its own checks.
+- **Setup**: `SetupFrame`, the first-run frame with steps, Next, Skip setup and Back. Each app supplies its own steps.
+- **Shared settings rows**: voice language, voice problem, speech speed, test voice, helper PIN, phone health and phone maker rows, with `SpeechSpeed`, `TextSize`, `VoicePitch` and `VoiceStatus`. Strings that name the app use its label from the manifest.
 
 Only code with no app-specific logic goes here.
 

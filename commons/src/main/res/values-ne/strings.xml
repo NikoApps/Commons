@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Shared buttons and values -->
+    <string name="back">पछाडि</string>
+    <string name="cancel">रद्द गर्नुहोस्</string>
+    <string name="ok">ठिक छ</string>
+    <string name="value_on">खुला</string>
+    <string name="value_off">बन्द</string>
+    <string name="info_more_about">%1$s बारे थप</string>
+
+    <!-- Helper PIN -->
+    <string name="section_pin">सहयोगीको PIN</string>
+    <string name="pin_remove">PIN हटाउनुहोस्</string>
+    <string name="pin_enter_title">सहयोगीको PIN हाल्नुहोस्</string>
+    <string name="pin_enter_message">सेटिङ खोल्न ४ अङ्क हाल्नुहोस्।</string>
+    <string name="pin_wrong">PIN मिलेन। फेरि हाल्नुहोस्।</string>
+    <string name="pin_set_title">सहयोगीको PIN राख्नुहोस्</string>
+    <string name="pin_set_message">४ अङ्क छान्नुहोस्। सेटिङ खोल्न यो चाहिन्छ।</string>
+    <string name="pin_confirm_message">उही ४ अङ्क फेरि हाल्नुहोस्।</string>
+    <string name="pin_mismatch">अङ्क मिलेनन्। फेरि सुरु गर्नुहोस्।</string>
+    <string name="pin_progress">हालिएका अङ्क: %2$d मध्ये %1$d</string>
+    <string name="pin_delete">मेटाउनुहोस्</string>
+
+    <!-- First-run setup -->
+    <string name="setup_title">सेटअप</string>
+    <string name="setup_step">%2$d मध्ये चरण %1$d</string>
+    <string name="setup_next">अर्को</string>
+    <string name="setup_done">सकियो</string>
+    <string name="setup_skip">सेटअप छोड्नुहोस्</string>
+
+    <!-- Voice. In status_language_not_supported, %1$s is the app's name. -->
+    <string name="language_phone">फोन जस्तै</string>
+    <string name="setting_voice_language">आवाजको भाषा</string>
+    <string name="voice_problem">आवाज मिलाउनुपर्छ</string>
+    <string name="setting_speech_speed">कति छिटो बोल्ने</string>
+    <string name="test_voice">आवाज जाँच्नुहोस्</string>
+    <string name="voice_engine">%1$s को आवाज</string>
+    <string name="speed_slow">बिस्तारै</string>
+    <string name="speed_normal">सामान्य</string>
+    <string name="speed_fast">छिटो</string>
+    <string name="status_no_voice">फोनमा यो भाषाको आवाज अझै छैन। सहयोगीले फोनको टेक्स्ट-टु-स्पिच सेटिङमा आवाज थप्न सक्नुहुन्छ।</string>
+    <string name="status_no_engine">यो फोनमा बोल्ने आवाज छैन। सहयोगीले RHVoice वा eSpeak NG जस्तो आवाज इन्स्टल गर्न सक्नुहुन्छ।</string>
+    <string name="status_language_not_supported">%1$s ले यो भाषा अझै बोल्न सक्दैन।</string>
+
+    <!-- Text size and voice pitch -->
+    <string name="size_small">सानो</string>
+    <string name="size_medium">मध्यम</string>
+    <string name="size_large">ठूलो</string>
+    <string name="pitch_lower">गहिरो</string>
+    <string name="pitch_normal">सामान्य</string>
+    <string name="pitch_higher">पातलो</string>
+
+    <!-- Phone health. %1$s is the app's name. -->
+    <string name="health_battery">ब्याट्री प्रयोग</string>
+    <string name="health_battery_value">फोनले %1$s नरोकोस् भनेर Unrestricted वा No restrictions मा राख्नुहोस्</string>
+    <string name="health_hibernation">प्रयोग नभएका एपका सेटिङ</string>
+    <string name="health_hibernation_value">Pause app activity if unused बन्द गर्नुहोस्</string>
+    <string name="phone_maker">फोन कम्पनीका सेटिङ</string>
+    <string name="phone_maker_xiaomi">%1$s का लागि Autostart खोल्नुहोस्, र Battery saver लाई No restrictions मा राख्नुहोस्।</string>
+    <string name="phone_maker_samsung">Battery लाई Unrestricted मा राख्नुहोस्, र %1$s लाई Sleeping apps र Deep sleeping apps बाट बाहिर राख्नुहोस्।</string>
+    <string name="phone_maker_other">फोनमा Autostart वा Auto-launch छ भने %1$s का लागि खोल्नुहोस्, र ब्याट्री प्रयोगलाई No restrictions मा राख्नुहोस्।</string>
+</resources>

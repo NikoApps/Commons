@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Shared buttons and values -->
+    <string name="back">Voltar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="ok">OK</string>
+    <string name="value_on">Ligado</string>
+    <string name="value_off">Desligado</string>
+    <string name="info_more_about">Mais sobre %1$s</string>
+
+    <!-- Helper PIN -->
+    <string name="section_pin">PIN do ajudante</string>
+    <string name="pin_remove">Remover o PIN</string>
+    <string name="pin_enter_title">Digite o PIN do ajudante</string>
+    <string name="pin_enter_message">Digite os 4 números para abrir as configurações.</string>
+    <string name="pin_wrong">Esse PIN não está certo. Tente de novo.</string>
+    <string name="pin_set_title">Criar um PIN do ajudante</string>
+    <string name="pin_set_message">Escolha 4 números. Você vai precisar deles para abrir as configurações.</string>
+    <string name="pin_confirm_message">Digite os mesmos 4 números de novo.</string>
+    <string name="pin_mismatch">Os números não eram iguais. Comece de novo.</string>
+    <string name="pin_progress">Números digitados: %1$d de %2$d</string>
+    <string name="pin_delete">Apagar</string>
+
+    <!-- First-run setup -->
+    <string name="setup_title">Configurar</string>
+    <string name="setup_step">Passo %1$d de %2$d</string>
+    <string name="setup_next">Próximo</string>
+    <string name="setup_done">Pronto</string>
+    <string name="setup_skip">Pular configuração</string>
+
+    <!-- Voice. In status_language_not_supported, %1$s is the app's name. -->
+    <string name="language_phone">Igual ao celular</string>
+    <string name="setting_voice_language">Idioma da voz</string>
+    <string name="voice_problem">A voz precisa de ajuda</string>
+    <string name="setting_speech_speed">Velocidade da fala</string>
+    <string name="test_voice">Testar a voz</string>
+    <string name="voice_engine">Voz de %1$s</string>
+    <string name="speed_slow">Devagar</string>
+    <string name="speed_normal">Normal</string>
+    <string name="speed_fast">Rápido</string>
+    <string name="status_no_voice">O celular ainda não tem voz para este idioma. Um ajudante pode adicionar uma nas configurações de texto para fala do celular.</string>
+    <string name="status_no_engine">Este celular não tem voz para falar. Um ajudante pode instalar uma, como RHVoice ou eSpeak NG.</string>
+    <string name="status_language_not_supported">O %1$s ainda não fala este idioma.</string>
+
+    <!-- Text size and voice pitch -->
+    <string name="size_small">Pequeno</string>
+    <string name="size_medium">Médio</string>
+    <string name="size_large">Grande</string>
+    <string name="pitch_lower">Mais grave</string>
+    <string name="pitch_normal">Normal</string>
+    <string name="pitch_higher">Mais agudo</string>
+
+    <!-- Phone health. %1$s is the app's name. -->
+    <string name="health_battery">Uso da bateria</string>
+    <string name="health_battery_value">Coloque em Sem restrições para o celular não parar o %1$s</string>
+    <string name="health_hibernation">Configurações de apps não usados</string>
+    <string name="health_hibernation_value">Desative Pausar atividade no app se não usado</string>
+    <string name="phone_maker">Configurações do fabricante</string>
+    <string name="phone_maker_xiaomi">Ative Início automático para o %1$s e coloque Economia de bateria em Sem restrições.</string>
+    <string name="phone_maker_samsung">Coloque Bateria em Sem restrições e deixe o %1$s fora de Apps em suspensão e Apps em suspensão profunda.</string>
+    <string name="phone_maker_other">Se o celular tiver Início automático, ative para o %1$s e coloque o uso da bateria em Sem restrições.</string>
+</resources>
