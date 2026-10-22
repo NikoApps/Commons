@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Shared buttons and values -->
+    <string name="back">رجوع</string>
+    <string name="cancel">إلغاء</string>
+    <string name="ok">حسنًا</string>
+    <string name="value_on">مفعّل</string>
+    <string name="value_off">متوقف</string>
+    <string name="info_more_about">المزيد عن %1$s</string>
+
+    <!-- Helper PIN -->
+    <string name="section_pin">رمز المساعد</string>
+    <string name="pin_remove">إزالة الرمز</string>
+    <string name="pin_enter_title">أدخل رمز المساعد</string>
+    <string name="pin_enter_message">أدخل الأرقام الأربعة لفتح الإعدادات.</string>
+    <string name="pin_wrong">هذا الرمز غير صحيح. حاول مرة أخرى.</string>
+    <string name="pin_set_title">ضع رمزًا للمساعد</string>
+    <string name="pin_set_message">اختر 4 أرقام. ستحتاجها لفتح الإعدادات.</string>
+    <string name="pin_confirm_message">أدخل الأرقام الأربعة نفسها مرة أخرى.</string>
+    <string name="pin_mismatch">الأرقام غير متطابقة. ابدأ من جديد.</string>
+    <string name="pin_progress">الأرقام المدخلة: %1$d من %2$d</string>
+    <string name="pin_delete">حذف</string>
+
+    <!-- First-run setup -->
+    <string name="setup_title">الإعداد</string>
+    <string name="setup_step">الخطوة %1$d من %2$d</string>
+    <string name="setup_next">التالي</string>
+    <string name="setup_done">تم</string>
+    <string name="setup_skip">تخطي الإعداد</string>
+
+    <!-- Voice. In status_language_not_supported, %1$s is the app's name. -->
+    <string name="language_phone">مثل الهاتف</string>
+    <string name="setting_voice_language">لغة الصوت</string>
+    <string name="voice_problem">الصوت يحتاج إلى إصلاح</string>
+    <string name="setting_speech_speed">سرعة الكلام</string>
+    <string name="test_voice">جرّب الصوت</string>
+    <string name="voice_engine">الصوت من %1$s</string>
+    <string name="speed_slow">بطيئة</string>
+    <string name="speed_normal">عادية</string>
+    <string name="speed_fast">سريعة</string>
+    <string name="status_no_voice">لا يوجد في الهاتف صوت لهذه اللغة بعد. يمكن لمساعد إضافة صوت من إعدادات تحويل النص إلى كلام.</string>
+    <string name="status_no_engine">لا يوجد في هذا الهاتف صوت للكلام. يمكن لمساعد تثبيت صوت مثل RHVoice أو eSpeak NG.</string>
+    <string name="status_language_not_supported">لا يستطيع %1$s التحدث بهذه اللغة بعد.</string>
+
+    <!-- Text size and voice pitch -->
+    <string name="size_small">صغير</string>
+    <string name="size_medium">متوسط</string>
+    <string name="size_large">كبير</string>
+    <string name="pitch_lower">منخفضة</string>
+    <string name="pitch_normal">عادية</string>
+    <string name="pitch_higher">مرتفعة</string>
+
+    <!-- Phone health. %1$s is the app's name. -->
+    <string name="health_battery">استخدام البطارية</string>
+    <string name="health_battery_value">اجعله غير مقيّد أو بلا قيود حتى لا يوقف الهاتف %1$s</string>
+    <string name="health_hibernation">إعدادات التطبيقات غير المستخدمة</string>
+    <string name="health_hibernation_value">أوقف خيار «إيقاف نشاط التطبيق مؤقتًا في حال عدم استخدامه»</string>
+    <string name="phone_maker">إعدادات الشركة المصنّعة</string>
+    <string name="phone_maker_xiaomi">شغّل التشغيل التلقائي لـ %1$s، واجعل توفير البطارية بلا قيود.</string>
+    <string name="phone_maker_samsung">اجعل البطارية غير مقيّدة، وأبقِ %1$s خارج Sleeping apps وDeep sleeping apps.</string>
+    <string name="phone_maker_other">إذا كان في الهاتف تشغيل تلقائي، فشغّله لـ %1$s، واجعل استخدام البطارية بلا قيود.</string>
+</resources>

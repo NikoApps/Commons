@@ -28,6 +28,8 @@ android {
 
 dependencies {
     implementation(libs.androidx.core.ktx)
+    // BackHandler for the setup frame.
+    implementation(libs.androidx.activity.compose)
     implementation(platform(libs.androidx.compose.bom))
     api(libs.androidx.compose.ui)
     api(libs.androidx.compose.material3)
