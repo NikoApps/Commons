@@ -4,7 +4,7 @@ Shared Android code for [Niko](https://github.com/NikoApps) apps: the theme, spe
 
 ## What's here
 
-- **`NikoTheme`**: light and dark colour schemes from the Niko colour tokens, and typography that starts larger than Material defaults. Every text colour pairing meets WCAG AAA (7:1), checked by `ContrastTest`. No dynamic colour, so contrast holds on every phone.
+- **`NikoTheme`**: light and dark colour schemes from the Niko colour tokens, and typography that starts larger than Material defaults. Every text colour pairing meets WCAG AAA (7:1), checked by `ContrastTest`. No dynamic colour, so contrast holds on every phone. Each app passes its own `NikoAccent` (`NikoAccent.Clock`, the default, or `NikoAccent.Dialer`); accent pairings are checked by `AccentTest`.
 - **`NikoColors`**: the raw tokens, including one background colour per app so people who can't read can tell icons apart.
 - **`Speaker`**: a small wrapper around Android's text-to-speech engine. Speaks on the alarm stream by default, because media volume is often turned down. Reports when speech ends, and takes a volume and stream.
 - **Components**: `BigButton`, `SecondaryButton`, `SolidButton`, `ScreenTopBar`, and the settings rows `SettingsGroup`, `SwitchRow`, `ValueRow` and `ChoiceRow`. Every one has a spoken label and a touch target of at least 64dp.
