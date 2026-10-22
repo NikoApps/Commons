@@ -1,16 +1,19 @@
 package io.github.nikoapps.commons.ui
 
 import androidx.compose.foundation.BorderStroke
+import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.heightIn
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.layout.windowInsetsPadding
 import androidx.compose.foundation.selection.selectable
 import androidx.compose.foundation.selection.selectableGroup
 import androidx.compose.foundation.selection.toggleable
@@ -29,7 +32,6 @@ import androidx.compose.material3.Switch
 import androidx.compose.material3.SwitchDefaults
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
-import androidx.compose.material3.CenterAlignedTopAppBar
 import androidx.compose.material3.TopAppBarDefaults
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
@@ -99,30 +101,44 @@ fun SolidButton(text: String, onClick: () -> Unit, modifier: Modifier = Modifier
 /**
  * A screen title that stays at the top while the content scrolls, with a back arrow.
  * The arrow is labelled for TalkBack and sits next to the title, so it is never a lone icon.
+ * The bar is at least 64dp tall and grows when a large font makes the title wrap.
  */
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun ScreenTopBar(title: String, backIcon: Painter, backLabel: String, onBack: () -> Unit) {
-    CenterAlignedTopAppBar(
-        title = {
-            Text(
-                text = title,
-                style = MaterialTheme.typography.titleLarge,
-                modifier = Modifier.semantics { heading() },
+    Box(
+        modifier = Modifier
+            .fillMaxWidth()
+            .background(MaterialTheme.colorScheme.background)
+            .windowInsetsPadding(TopAppBarDefaults.windowInsets)
+            .heightIn(min = 64.dp),
+    ) {
+        IconButton(
+            onClick = onBack,
+            modifier = Modifier
+                .align(Alignment.CenterStart)
+                .padding(start = 4.dp)
+                .size(64.dp),
+        ) {
+            Icon(
+                painter = backIcon,
+                contentDescription = backLabel,
+                tint = MaterialTheme.colorScheme.onBackground,
+                modifier = Modifier.size(28.dp),
             )
-        },
-        navigationIcon = {
-            IconButton(onClick = onBack, modifier = Modifier.size(64.dp)) {
-                Icon(painter = backIcon, contentDescription = backLabel, modifier = Modifier.size(28.dp))
-            }
-        },
-        colors = TopAppBarDefaults.centerAlignedTopAppBarColors(
-            containerColor = MaterialTheme.colorScheme.background,
-            scrolledContainerColor = MaterialTheme.colorScheme.background,
-            titleContentColor = MaterialTheme.colorScheme.onBackground,
-            navigationIconContentColor = MaterialTheme.colorScheme.onBackground,
-        ),
-    )
+        }
+        // Inset by the arrow's width on both sides, so the title stays centred and never runs under it.
+        Text(
+            text = title,
+            style = MaterialTheme.typography.titleLarge,
+            color = MaterialTheme.colorScheme.onBackground,
+            textAlign = TextAlign.Center,
+            modifier = Modifier
+                .align(Alignment.Center)
+                .padding(horizontal = 68.dp, vertical = 8.dp)
+                .semantics { heading() },
+        )
+    }
 }
 
 // Settings list type scale. Three levels only: group header, row title, row value.
