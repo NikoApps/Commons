@@ -196,14 +196,14 @@ private fun RowText(title: String, value: String?, valueColor: Color, info: Stri
 }
 
 /**
- * A small (i) next to a setting's title. Tapping it explains the setting in a few sentences,
- * so the list itself can stay short.
+ * A small (i) next to a setting's title, with a 64dp touch target like every other control.
+ * Tapping it explains the setting in a few sentences, so the list itself can stay short.
  */
 @Composable
 private fun InfoButton(title: String, info: String) {
     val strings = LocalInfoStrings.current ?: return
     var open by rememberSaveable { mutableStateOf(false) }
-    IconButton(onClick = { open = true }, modifier = Modifier.size(48.dp)) {
+    IconButton(onClick = { open = true }, modifier = Modifier.size(64.dp)) {
         Icon(
             painter = strings.icon,
             contentDescription = strings.moreAbout(title),
@@ -217,7 +217,7 @@ private fun InfoButton(title: String, info: String) {
         title = { Text(title, style = MaterialTheme.typography.titleLarge) },
         text = { Text(info, style = RowTitleStyle, color = MaterialTheme.colorScheme.onSurface) },
         confirmButton = {
-            TextButton(onClick = { open = false }, modifier = Modifier.heightIn(min = 56.dp)) {
+            TextButton(onClick = { open = false }, modifier = Modifier.heightIn(min = 64.dp)) {
                 Text(strings.ok, style = MaterialTheme.typography.labelLarge, color = MaterialTheme.colorScheme.onSurface)
             }
         },
@@ -358,7 +358,7 @@ fun <T> ChoiceRow(
         },
         confirmButton = {},
         dismissButton = {
-            TextButton(onClick = { open = false }, modifier = Modifier.heightIn(min = 56.dp)) {
+            TextButton(onClick = { open = false }, modifier = Modifier.heightIn(min = 64.dp)) {
                 Text(cancelLabel, style = MaterialTheme.typography.labelLarge, color = MaterialTheme.colorScheme.onSurface)
             }
         },
