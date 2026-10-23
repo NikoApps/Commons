@@ -26,7 +26,7 @@
     <string name="setup_step">%2$d मध्ये चरण %1$d</string>
     <string name="setup_next">अर्को</string>
     <string name="setup_done">सकियो</string>
-    <string name="setup_skip">सेटअप छोड्नुहोस्</string>
+    <string name="setup_skip">छोड्नुहोस्</string>
 
     <!-- Voice. In status_language_not_supported, %1$s is the app's name. -->
     <string name="language_phone">फोन जस्तै</string>
