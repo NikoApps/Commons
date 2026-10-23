@@ -14,6 +14,23 @@ enum class SpeechSpeed(val rate: Float) {
 }
 
 /** On top of the phone's own font size. */
-enum class TextSize(val scale: Float) { Small(1.0f), Medium(1.2f), Large(1.4f) }
+enum class TextSize(val scale: Float) {
+    Small(1.0f),
+    Medium(1.2f),
+    Large(1.4f),
+    ;
+
+    /**
+     * The font scale to draw with on a phone set to [phoneScale]. The app's choice makes text bigger
+     * only up to 200%, or the phone's own size if that is bigger already, because past that the main
+     * screen can no longer fit what matters.
+     */
+    fun fontScaleOn(phoneScale: Float): Float =
+        (phoneScale * scale).coerceAtMost(maxOf(phoneScale, MAX_APP_FONT_SCALE))
+
+    private companion object {
+        const val MAX_APP_FONT_SCALE = 2f
+    }
+}
 
 enum class VoicePitch(val pitch: Float) { Lower(0.85f), Normal(1.0f), Higher(1.15f) }
