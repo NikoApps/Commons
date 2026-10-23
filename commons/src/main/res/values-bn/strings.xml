@@ -26,7 +26,7 @@
     <string name="setup_step">%2$d-এর মধ্যে ধাপ %1$d</string>
     <string name="setup_next">পরের ধাপ</string>
     <string name="setup_done">হয়ে গেছে</string>
-    <string name="setup_skip">সেটআপ বাদ দিন</string>
+    <string name="setup_skip">বাদ দিন</string>
 
     <!-- Voice. In status_language_not_supported, %1$s is the app's name. -->
     <string name="language_phone">ফোনের মতো</string>
