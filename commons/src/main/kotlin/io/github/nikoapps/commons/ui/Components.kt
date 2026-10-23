@@ -17,6 +17,8 @@ import androidx.compose.foundation.layout.windowInsetsPadding
 import androidx.compose.foundation.selection.selectable
 import androidx.compose.foundation.selection.selectableGroup
 import androidx.compose.foundation.selection.toggleable
+import androidx.compose.foundation.text.BasicText
+import androidx.compose.foundation.text.TextAutoSize
 import androidx.compose.material3.AlertDialog
 import androidx.compose.material3.Button
 import androidx.compose.material3.ButtonDefaults
@@ -50,6 +52,7 @@ import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.em
 import androidx.compose.ui.unit.sp
 
 /** The primary action on a screen: full width, at least 96dp tall. */
@@ -128,11 +131,17 @@ fun ScreenTopBar(title: String, backIcon: Painter, backLabel: String, onBack: ()
             )
         }
         // Inset by the arrow's width on both sides, so the title stays centred and never runs under it.
-        Text(
+        // At large font sizes it shrinks to fit two lines, so it can't push the screen below the edge.
+        val titleStyle = MaterialTheme.typography.titleLarge
+        BasicText(
             text = title,
-            style = MaterialTheme.typography.titleLarge,
-            color = MaterialTheme.colorScheme.onBackground,
-            textAlign = TextAlign.Center,
+            style = titleStyle.copy(
+                color = MaterialTheme.colorScheme.onBackground,
+                textAlign = TextAlign.Center,
+                lineHeight = 1.25.em,
+            ),
+            maxLines = 2,
+            autoSize = TextAutoSize.StepBased(minFontSize = 16.sp, maxFontSize = titleStyle.fontSize),
             modifier = Modifier
                 .align(Alignment.Center)
                 .padding(horizontal = 68.dp, vertical = 8.dp)
