@@ -54,7 +54,7 @@
     <string name="health_battery">Battery use</string>
     <string name="health_battery_value">Set to Unrestricted or No restrictions so the phone doesn\'t stop %1$s</string>
     <string name="health_hibernation">Unused app settings</string>
-    <string name="health_hibernation_value">Turn off Pause app activity if unused</string>
+    <string name="health_hibernation_value">Turn off the switch that pauses the app or removes its permissions when unused</string>
     <string name="phone_maker">Phone maker settings</string>
     <string name="phone_maker_xiaomi">Turn on Autostart for %1$s, and set Battery saver to No restrictions.</string>
     <string name="phone_maker_samsung">Set Battery to Unrestricted, and keep %1$s out of Sleeping apps and Deep sleeping apps.</string>

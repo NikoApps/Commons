@@ -54,7 +54,7 @@
     <string name="health_battery">Uso da bateria</string>
     <string name="health_battery_value">Coloque em Sem restrições para o celular não parar o %1$s</string>
     <string name="health_hibernation">Configurações de apps não usados</string>
-    <string name="health_hibernation_value">Desative Pausar atividade no app se não usado</string>
+    <string name="health_hibernation_value">Desative a opção que pausa o app ou remove as permissões se não for usado</string>
     <string name="phone_maker">Configurações do fabricante</string>
     <string name="phone_maker_xiaomi">Ative Início automático para o %1$s e coloque Economia de bateria em Sem restrições.</string>
     <string name="phone_maker_samsung">Coloque Bateria em Sem restrições e deixe o %1$s fora de Apps em suspensão e Apps em suspensão profunda.</string>
