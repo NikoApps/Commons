@@ -54,7 +54,7 @@
     <string name="health_battery">ब्याट्री प्रयोग</string>
     <string name="health_battery_value">फोनले %1$s नरोकोस् भनेर Unrestricted वा No restrictions मा राख्नुहोस्</string>
     <string name="health_hibernation">प्रयोग नभएका एपका सेटिङ</string>
-    <string name="health_hibernation_value">Pause app activity if unused बन्द गर्नुहोस्</string>
+    <string name="health_hibernation_value">प्रयोग नभएमा एप रोक्ने वा अनुमति हटाउने विकल्प बन्द गर्नुहोस्</string>
     <string name="phone_maker">फोन कम्पनीका सेटिङ</string>
     <string name="phone_maker_xiaomi">%1$s का लागि Autostart खोल्नुहोस्, र Battery saver लाई No restrictions मा राख्नुहोस्।</string>
     <string name="phone_maker_samsung">Battery लाई Unrestricted मा राख्नुहोस्, र %1$s लाई Sleeping apps र Deep sleeping apps बाट बाहिर राख्नुहोस्।</string>

@@ -54,7 +54,7 @@
     <string name="health_battery">Utilisation de la batterie</string>
     <string name="health_battery_value">Mettez-la sur Sans restriction pour que le téléphone n\'arrête pas %1$s</string>
     <string name="health_hibernation">Applis inutilisées</string>
-    <string name="health_hibernation_value">Désactivez Suspendre l\'activité de l\'appli si elle n\'est pas utilisée</string>
+    <string name="health_hibernation_value">Désactivez l\'option qui suspend l\'appli ou retire ses autorisations si elle n\'est pas utilisée</string>
     <string name="phone_maker">Réglages du fabricant</string>
     <string name="phone_maker_xiaomi">Activez Démarrage automatique pour %1$s et mettez Économiseur de batterie sur Sans restriction.</string>
     <string name="phone_maker_samsung">Mettez Batterie sur Sans restriction et gardez %1$s hors des Applications en veille et des Applications en veille prolongée.</string>

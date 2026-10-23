@@ -54,7 +54,7 @@
     <string name="health_battery">Penggunaan baterai</string>
     <string name="health_battery_value">Atur ke Tidak dibatasi atau Tanpa batasan agar ponsel tidak menghentikan %1$s</string>
     <string name="health_hibernation">Pengaturan aplikasi tidak terpakai</string>
-    <string name="health_hibernation_value">Matikan Jeda aktivitas aplikasi jika tidak digunakan</string>
+    <string name="health_hibernation_value">Matikan opsi yang menjeda aplikasi atau menghapus izinnya jika tidak digunakan</string>
     <string name="phone_maker">Pengaturan merek ponsel</string>
     <string name="phone_maker_xiaomi">Aktifkan Mulai otomatis untuk %1$s, dan atur Penghemat baterai ke Tanpa batasan.</string>
     <string name="phone_maker_samsung">Atur Baterai ke Tidak dibatasi, dan jauhkan %1$s dari Aplikasi tidur dan Aplikasi tidur nyenyak.</string>

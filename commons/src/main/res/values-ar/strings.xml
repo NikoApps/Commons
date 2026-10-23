@@ -54,7 +54,7 @@
     <string name="health_battery">استخدام البطارية</string>
     <string name="health_battery_value">اجعله غير مقيّد أو بلا قيود حتى لا يوقف الهاتف %1$s</string>
     <string name="health_hibernation">إعدادات التطبيقات غير المستخدمة</string>
-    <string name="health_hibernation_value">أوقف خيار «إيقاف نشاط التطبيق مؤقتًا في حال عدم استخدامه»</string>
+    <string name="health_hibernation_value">أوقف الخيار الذي يوقف التطبيق مؤقتًا أو يزيل أذوناته عند عدم استخدامه</string>
     <string name="phone_maker">إعدادات الشركة المصنّعة</string>
     <string name="phone_maker_xiaomi">شغّل التشغيل التلقائي لـ %1$s، واجعل توفير البطارية بلا قيود.</string>
     <string name="phone_maker_samsung">اجعل البطارية غير مقيّدة، وأبقِ %1$s خارج Sleeping apps وDeep sleeping apps.</string>
