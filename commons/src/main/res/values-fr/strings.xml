@@ -59,4 +59,17 @@
     <string name="phone_maker_xiaomi">Activez Démarrage automatique pour %1$s et mettez Économiseur de batterie sur Sans restriction.</string>
     <string name="phone_maker_samsung">Mettez Batterie sur Sans restriction et gardez %1$s hors des Applications en veille et des Applications en veille prolongée.</string>
     <string name="phone_maker_other">Si le téléphone a Démarrage automatique, activez-le pour %1$s et mettez l\'utilisation de la batterie sur Sans restriction.</string>
+
+    <!-- Cropping a photo to a square -->
+    <string name="crop_opening">Ouverture de la photo.</string>
+    <string name="crop_help">Faites glisser la photo pour la déplacer, et pincez pour zoomer. Les boutons font la même chose.</string>
+    <string name="crop_zoom_in">Agrandir</string>
+    <string name="crop_zoom_out">Réduire</string>
+    <string name="crop_move_left">Déplacer à gauche</string>
+    <string name="crop_move_right">Déplacer à droite</string>
+    <string name="crop_move_up">Déplacer vers le haut</string>
+    <string name="crop_move_down">Déplacer vers le bas</string>
+    <string name="crop_fit_whole">Voir toute la photo</string>
+    <string name="crop_use">Utiliser cette photo</string>
+    <string name="crop_save_failed">La photo n\'a pas pu être enregistrée. Réessayez.</string>
 </resources>

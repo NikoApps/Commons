@@ -30,6 +30,8 @@ dependencies {
     implementation(libs.androidx.core.ktx)
     // BackHandler for the setup frame.
     implementation(libs.androidx.activity.compose)
+    // Turns photos upright from their EXIF orientation before cropping.
+    implementation(libs.androidx.exifinterface)
     implementation(platform(libs.androidx.compose.bom))
     api(libs.androidx.compose.ui)
     api(libs.androidx.compose.material3)

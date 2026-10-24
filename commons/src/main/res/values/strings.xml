@@ -59,4 +59,17 @@
     <string name="phone_maker_xiaomi">Turn on Autostart for %1$s, and set Battery saver to No restrictions.</string>
     <string name="phone_maker_samsung">Set Battery to Unrestricted, and keep %1$s out of Sleeping apps and Deep sleeping apps.</string>
     <string name="phone_maker_other">If the phone has Autostart or Auto-launch, turn it on for %1$s, and set battery use to No restrictions.</string>
+
+    <!-- Cropping a photo to a square -->
+    <string name="crop_opening">Opening the photo.</string>
+    <string name="crop_help">Drag the photo to move it, and pinch to zoom. The buttons do the same.</string>
+    <string name="crop_zoom_in">Zoom in</string>
+    <string name="crop_zoom_out">Zoom out</string>
+    <string name="crop_move_left">Move left</string>
+    <string name="crop_move_right">Move right</string>
+    <string name="crop_move_up">Move up</string>
+    <string name="crop_move_down">Move down</string>
+    <string name="crop_fit_whole">Fit whole photo</string>
+    <string name="crop_use">Use this photo</string>
+    <string name="crop_save_failed">The photo couldn\'t be saved. Try again.</string>
 </resources>

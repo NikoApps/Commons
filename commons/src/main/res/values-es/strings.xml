@@ -59,4 +59,17 @@
     <string name="phone_maker_xiaomi">Active Inicio automático para %1$s y ponga Ahorro de batería en Sin restricciones.</string>
     <string name="phone_maker_samsung">Ponga Batería en Sin restricciones y deje %1$s fuera de Aplicaciones inactivas y Aplicaciones en suspensión profunda.</string>
     <string name="phone_maker_other">Si el teléfono tiene Inicio automático, actívelo para %1$s y ponga el uso de batería en Sin restricciones.</string>
+
+    <!-- Cropping a photo to a square -->
+    <string name="crop_opening">Abriendo la foto.</string>
+    <string name="crop_help">Arrastre la foto para moverla y junte o separe dos dedos para acercar o alejar. Los botones hacen lo mismo.</string>
+    <string name="crop_zoom_in">Acercar</string>
+    <string name="crop_zoom_out">Alejar</string>
+    <string name="crop_move_left">Mover a la izquierda</string>
+    <string name="crop_move_right">Mover a la derecha</string>
+    <string name="crop_move_up">Mover arriba</string>
+    <string name="crop_move_down">Mover abajo</string>
+    <string name="crop_fit_whole">Ver la foto entera</string>
+    <string name="crop_use">Usar esta foto</string>
+    <string name="crop_save_failed">No se pudo guardar la foto. Inténtelo de nuevo.</string>
 </resources>

@@ -59,4 +59,17 @@
     <string name="phone_maker_xiaomi">شغّل التشغيل التلقائي لـ %1$s، واجعل توفير البطارية بلا قيود.</string>
     <string name="phone_maker_samsung">اجعل البطارية غير مقيّدة، وأبقِ %1$s خارج Sleeping apps وDeep sleeping apps.</string>
     <string name="phone_maker_other">إذا كان في الهاتف تشغيل تلقائي، فشغّله لـ %1$s، واجعل استخدام البطارية بلا قيود.</string>
+
+    <!-- Cropping a photo to a square -->
+    <string name="crop_opening">جارٍ فتح الصورة.</string>
+    <string name="crop_help">اسحب الصورة لتحريكها، وباعد بين إصبعين للتكبير. الأزرار تفعل الشيء نفسه.</string>
+    <string name="crop_zoom_in">تكبير</string>
+    <string name="crop_zoom_out">تصغير</string>
+    <string name="crop_move_left">تحريك لليسار</string>
+    <string name="crop_move_right">تحريك لليمين</string>
+    <string name="crop_move_up">تحريك للأعلى</string>
+    <string name="crop_move_down">تحريك للأسفل</string>
+    <string name="crop_fit_whole">إظهار الصورة كاملة</string>
+    <string name="crop_use">استخدام هذه الصورة</string>
+    <string name="crop_save_failed">تعذّر حفظ الصورة. حاول مرة أخرى.</string>
 </resources>
