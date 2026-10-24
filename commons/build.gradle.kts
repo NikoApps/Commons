@@ -39,4 +39,6 @@ dependencies {
     debugImplementation(libs.androidx.compose.ui.tooling)
 
     testImplementation(libs.junit)
+    // Same spellout rules as android.icu, so number words can be tested on the JVM.
+    testImplementation(libs.icu4j)
 }
