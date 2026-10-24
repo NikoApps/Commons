@@ -59,4 +59,17 @@
     <string name="phone_maker_xiaomi">%1$s کے لیے Autostart آن کریں، اور Battery saver کو No restrictions پر رکھیں۔</string>
     <string name="phone_maker_samsung">Battery کو Unrestricted پر رکھیں، اور %1$s کو Sleeping apps اور Deep sleeping apps سے باہر رکھیں۔</string>
     <string name="phone_maker_other">اگر فون میں Autostart یا Auto-launch ہے تو اسے %1$s کے لیے آن کریں، اور بیٹری کا استعمال No restrictions پر رکھیں۔</string>
+
+    <!-- Cropping a photo to a square -->
+    <string name="crop_opening">تصویر کھل رہی ہے۔</string>
+    <string name="crop_help">تصویر ہٹانے کے لیے اسے انگلی سے کھینچیں، اور بڑا چھوٹا کرنے کے لیے دو انگلیوں سے چٹکی کریں۔ بٹن بھی یہی کرتے ہیں۔</string>
+    <string name="crop_zoom_in">بڑا کریں</string>
+    <string name="crop_zoom_out">چھوٹا کریں</string>
+    <string name="crop_move_left">بائیں ہٹائیں</string>
+    <string name="crop_move_right">دائیں ہٹائیں</string>
+    <string name="crop_move_up">اوپر ہٹائیں</string>
+    <string name="crop_move_down">نیچے ہٹائیں</string>
+    <string name="crop_fit_whole">پوری تصویر دکھائیں</string>
+    <string name="crop_use">یہ تصویر استعمال کریں</string>
+    <string name="crop_save_failed">تصویر محفوظ نہیں ہو سکی۔ دوبارہ کوشش کریں۔</string>
 </resources>

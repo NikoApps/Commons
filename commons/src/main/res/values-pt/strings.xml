@@ -59,4 +59,17 @@
     <string name="phone_maker_xiaomi">Ative Início automático para o %1$s e coloque Economia de bateria em Sem restrições.</string>
     <string name="phone_maker_samsung">Coloque Bateria em Sem restrições e deixe o %1$s fora de Apps em suspensão e Apps em suspensão profunda.</string>
     <string name="phone_maker_other">Se o celular tiver Início automático, ative para o %1$s e coloque o uso da bateria em Sem restrições.</string>
+
+    <!-- Cropping a photo to a square -->
+    <string name="crop_opening">Abrindo a foto.</string>
+    <string name="crop_help">Arraste a foto para mover, e afaste ou junte os dedos para aumentar ou diminuir. Os botões fazem o mesmo.</string>
+    <string name="crop_zoom_in">Aumentar</string>
+    <string name="crop_zoom_out">Diminuir</string>
+    <string name="crop_move_left">Mover para a esquerda</string>
+    <string name="crop_move_right">Mover para a direita</string>
+    <string name="crop_move_up">Mover para cima</string>
+    <string name="crop_move_down">Mover para baixo</string>
+    <string name="crop_fit_whole">Mostrar a foto inteira</string>
+    <string name="crop_use">Usar esta foto</string>
+    <string name="crop_save_failed">Não foi possível salvar a foto. Tente de novo.</string>
 </resources>

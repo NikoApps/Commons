@@ -59,4 +59,17 @@
     <string name="phone_maker_xiaomi">%1$s-এর জন্য Autostart চালু করুন, আর Battery saver-কে No restrictions-এ রাখুন।</string>
     <string name="phone_maker_samsung">Battery-কে Unrestricted-এ রাখুন, আর %1$s-কে Sleeping apps ও Deep sleeping apps-এর বাইরে রাখুন।</string>
     <string name="phone_maker_other">ফোনে Autostart বা Auto-launch থাকলে %1$s-এর জন্য তা চালু করুন, আর ব্যাটারির ব্যবহার No restrictions-এ রাখুন।</string>
+
+    <!-- Cropping a photo to a square -->
+    <string name="crop_opening">ছবিটি খুলছে।</string>
+    <string name="crop_help">ছবি সরাতে টেনে আনুন, আর বড়-ছোট করতে দুই আঙুলে চিমটি কাটুন। বোতামগুলোও একই কাজ করে।</string>
+    <string name="crop_zoom_in">বড় করুন</string>
+    <string name="crop_zoom_out">ছোট করুন</string>
+    <string name="crop_move_left">বাঁয়ে সরান</string>
+    <string name="crop_move_right">ডানে সরান</string>
+    <string name="crop_move_up">উপরে সরান</string>
+    <string name="crop_move_down">নিচে সরান</string>
+    <string name="crop_fit_whole">পুরো ছবি দেখান</string>
+    <string name="crop_use">এই ছবিটি ব্যবহার করুন</string>
+    <string name="crop_save_failed">ছবিটি সেভ করা গেল না। আবার চেষ্টা করুন।</string>
 </resources>

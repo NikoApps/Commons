@@ -59,4 +59,17 @@
     <string name="phone_maker_xiaomi">Aktifkan Mulai otomatis untuk %1$s, dan atur Penghemat baterai ke Tanpa batasan.</string>
     <string name="phone_maker_samsung">Atur Baterai ke Tidak dibatasi, dan jauhkan %1$s dari Aplikasi tidur dan Aplikasi tidur nyenyak.</string>
     <string name="phone_maker_other">Jika ponsel punya Mulai otomatis, aktifkan untuk %1$s, dan atur penggunaan baterai ke Tanpa batasan.</string>
+
+    <!-- Cropping a photo to a square -->
+    <string name="crop_opening">Membuka foto.</string>
+    <string name="crop_help">Geser foto untuk memindahkannya, dan cubit untuk memperbesar. Tombol-tombolnya juga bisa melakukan hal yang sama.</string>
+    <string name="crop_zoom_in">Perbesar</string>
+    <string name="crop_zoom_out">Perkecil</string>
+    <string name="crop_move_left">Geser ke kiri</string>
+    <string name="crop_move_right">Geser ke kanan</string>
+    <string name="crop_move_up">Geser ke atas</string>
+    <string name="crop_move_down">Geser ke bawah</string>
+    <string name="crop_fit_whole">Tampilkan seluruh foto</string>
+    <string name="crop_use">Pakai foto ini</string>
+    <string name="crop_save_failed">Foto tidak bisa disimpan. Coba lagi.</string>
 </resources>
