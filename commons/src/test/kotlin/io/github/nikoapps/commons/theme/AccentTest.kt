@@ -20,6 +20,7 @@ class AccentTest {
     private val accents = mapOf(
         "clock" to NikoAccent.Clock,
         "dialer" to NikoAccent.Dialer,
+        "reminders" to NikoAccent.Reminders,
     )
 
     @Test

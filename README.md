@@ -1,10 +1,10 @@
 # Niko Commons
 
-Shared Android code for [Niko](https://github.com/NikoApps) apps: the theme, speech and the building blocks every app needs. Kotlin and Jetpack Compose, GPLv3. Used by [Niko Clock](https://github.com/NikoApps/Clock).
+Shared Android code for [Niko](https://github.com/NikoApps) apps: the theme, speech and the building blocks every app needs. Kotlin and Jetpack Compose, GPLv3. Used by Niko Clock, Niko Dialer and Niko Reminders.
 
 ## What's here
 
-- **`NikoTheme`**: light and dark colour schemes from the Niko colour tokens, and typography that starts larger than Material defaults. Every text colour pairing meets WCAG AAA (7:1), checked by `ContrastTest`. No dynamic colour, so contrast holds on every phone. Each app passes its own `NikoAccent` (`NikoAccent.Clock`, the default, or `NikoAccent.Dialer`); accent pairings are checked by `AccentTest`.
+- **`NikoTheme`**: light and dark colour schemes from the Niko colour tokens, and typography that starts larger than Material defaults. Every text colour pairing meets WCAG AAA (7:1), checked by `ContrastTest`. No dynamic colour, so contrast holds on every phone. Each app passes its own `NikoAccent` (`NikoAccent.Clock`, the default, `NikoAccent.Dialer` or `NikoAccent.Reminders`); accent pairings are checked by `AccentTest`.
 - **`NikoColors`**: the raw tokens, including one background colour per app so people who can't read can tell icons apart.
 - **`Speaker`**: a small wrapper around Android's text-to-speech engine. Speaks on the alarm stream by default, because media volume is often turned down. Reports when speech ends, and takes a volume and stream.
 - **Components**: `BigButton`, `SecondaryButton`, `SolidButton`, `ScreenTopBar`, and the settings rows `SettingsGroup`, `SwitchRow`, `ValueRow` and `ChoiceRow`. Every one has a spoken label and a touch target of at least 64dp.
@@ -12,6 +12,10 @@ Shared Android code for [Niko](https://github.com/NikoApps) apps: the theme, spe
 - **Helper PIN**: `UnlockPinScreen` and `SetPinScreen`, and `HelperPin`, which hashes the PIN with a salt each app picks once and never changes.
 - **Phone health**: `HealthCheck` describes a phone setting that can stop an app working and the page that fixes it. `PhoneHealth` has the checks every app shares (battery optimisation and pausing unused apps), and `PhoneMaker` the maker's own battery settings. Each app adds its own checks.
 - **Setup**: `SetupFrame`, the first-run frame with steps, Next, Skip setup and Back. Each app supplies its own steps.
+- **Time phrases**: `TimePhraser` turns a time or a date into a whole sentence in words, never digits, with a hand-written template per language (`timePhraserFor`, `phraserFor`). `IcuNumberWords` spells numbers out with Android's ICU rules.
+- **Recording**: `VoiceRecorder` records a voice from the microphone as a mono 16-bit WAV, with a length limit and optional silence after it. `Wav` writes the file.
+- **Photos**: `PhotoCropScreen` crops a photo to a square by dragging, pinching or buttons, and `Photos` opens it upright, takes it from the camera app and writes the 512 pixel JPEG. The library declares a FileProvider at `<applicationId>.photos` for the camera app.
+- **Files**: `safeFileStem` turns an id into a safe file name, and `copyIntoPlace` writes a file so it's never read half-written.
 - **Shared settings rows**: voice language, voice problem, speech speed, test voice, helper PIN, phone health and phone maker rows, with `SpeechSpeed`, `TextSize`, `VoicePitch` and `VoiceStatus`. Strings that name the app use its label from the manifest.
 
 Only code with no app-specific logic goes here.

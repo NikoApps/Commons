@@ -48,5 +48,19 @@ data class NikoAccent(
                 accentText = NikoColors.Apps.Dialer,
             ),
         )
+
+        /** Coral, from the darker stop of the Reminders icon gradient (#FFC7C2 to #FF9A93). */
+        val Reminders = NikoAccent(
+            light = NikoAccentColors(
+                accent = NikoColors.Apps.Reminders,
+                onAccent = NikoColors.Ink,
+                accentText = Color(0xFF8A2A22),
+            ),
+            dark = NikoAccentColors(
+                accent = NikoColors.Apps.Reminders,
+                onAccent = NikoColors.Ink,
+                accentText = NikoColors.Apps.Reminders,
+            ),
+        )
     }
 }
