@@ -21,6 +21,7 @@ class AccentTest {
         "clock" to NikoAccent.Clock,
         "dialer" to NikoAccent.Dialer,
         "reminders" to NikoAccent.Reminders,
+        "light" to NikoAccent.Light,
     )
 
     @Test
