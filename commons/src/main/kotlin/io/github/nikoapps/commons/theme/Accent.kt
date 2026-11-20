@@ -62,5 +62,19 @@ data class NikoAccent(
                 accentText = NikoColors.Apps.Reminders,
             ),
         )
+
+        /** Pale yellow, from the darker stop of the Light icon gradient (#FFF3B8 to #FFE58A). */
+        val Light = NikoAccent(
+            light = NikoAccentColors(
+                accent = NikoColors.Apps.Light,
+                onAccent = NikoColors.Ink,
+                accentText = Color(0xFF5C4A00),
+            ),
+            dark = NikoAccentColors(
+                accent = NikoColors.Apps.Light,
+                onAccent = NikoColors.Ink,
+                accentText = NikoColors.Apps.Light,
+            ),
+        )
     }
 }
